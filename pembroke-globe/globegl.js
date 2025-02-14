@@ -14,7 +14,7 @@ import ThreeRenderObjects from './node-modules/three-render-objects';
 
 import accessorFn from './node-modules/accessor-fn';
 import Kapsule from './node-modules/kapsule';
-import * as TWEEN from '@tweenjs/tween.js';
+import * as TWEEN from './node-modules/@tweenjs/tween.js';
 
 import linkKapsule from './kapsule-link.js';
 
