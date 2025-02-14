@@ -1,4 +1,4 @@
-import './globe.css'
+//import './globe.css'
 import Globe from "./globegl.js";
 
 const myGlobe = Globe();
