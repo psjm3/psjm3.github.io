@@ -10,7 +10,7 @@ const THREE = {
 };
 
 import ThreeGlobe from './node-modules/three-globe';
-import ThreeRenderObjects from 'three-render-objects';
+import ThreeRenderObjects from './node-modules/three-render-objects';
 
 import accessorFn from './node-modules/accessor-fn';
 import Kapsule from './node-modules/kapsule';
