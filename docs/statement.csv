@@ -1,4 +1,4 @@
-Transactoin ID,Date,Counterparty,Reference,Type,Amount,Currency,Balance,Spending Category
+Transaction ID,Date,Counterparty,Reference,Type,Amount,Currency,Balance,Spending Category
 00001,01/10/2025,ACME Steel Ltd,INV-89234-STEEL,CHAPS,-250000.00,GBP,4750000.00,Equipment & Materials
 00002,02/10/2025,Global Freight Solutions,EU-SHIPPING-OCT,Faster Payment,-45000.00,GBP,4705000.00,Transport
 00003,05/10/2025,South East Dealerships,BATCH-45-DELIVERY,CHAPS,850000.00,GBP,5555000.00,Revenue
