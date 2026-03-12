@@ -1,0 +1,16 @@
+Date,Counterparty,Reference,Type,Amount (GBP),Balance (GBP),Spending Category
+01/10/2025,ACME Steel Ltd,INV-89234-STEEL,CHAPS,-250000.00,4750000.00,Equipment & Materials
+02/10/2025,Global Freight Solutions,EU-SHIPPING-OCT,Faster Payment,-45000.00,4705000.00,Transport
+05/10/2025,South East Dealerships,BATCH-45-DELIVERY,CHAPS,850000.00,5555000.00,Revenue
+08/10/2025,TechSemiconductors Inc,CHIP-ORDER-Q4,Faster Payment,-310000.00,5245000.00,Equipment & Materials
+10/10/2025,National Energy Grid,FACTORY-ELEC-SEP,Direct Debit,-120000.00,5125000.00,Utilities
+12/10/2025,AutoGlass Suppliers UK,WINDSHIELDS-2000,Faster Payment,-85000.00,5040000.00,Equipment & Materials
+15/10/2025,Midlands Auto Group,BATCH-46-DELIVERY,CHAPS,1200000.00,6240000.00,Revenue
+17/10/2025,Robotics Maintenance Pro,LINE-3-REPAIR,Faster Payment,-22000.00,6218000.00,Repairs & Maintenance
+20/10/2025,HMRC,VAT-Q3-2025,BACS,-450000.00,5768000.00,Taxes
+22/10/2025,RubberTire Co,TIRES-BULK-OCT,Faster Payment,-140000.00,5628000.00,Equipment & Materials
+25/10/2025,Payroll Run,OCT-2025-SALARIES,BACS,-850000.00,4778000.00,Payroll
+26/10/2025,HMRC,PAYE-OCT-2025,BACS,-195000.00,4583000.00,Taxes
+28/10/2025,Creative Auto Agency,WINTER-AD-CAMPAIGN,Faster Payment,-75000.00,4508000.00,Marketing
+29/10/2025,Starling Bank,ACCOUNT-FEE,Fee,-15.00,4507985.00,Bank Charges
+30/10/2025,Northern Sales Hub,BATCH-47-DELIVERY,CHAPS,950000.00,5457985.00,Revenue
