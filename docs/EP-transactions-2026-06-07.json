@@ -1,0 +1,227 @@
+{
+  "account": {
+    "resourceId": "EP-ELECTRONICS-GIRO-EUR-001",
+    "iban": "DE89370400440532013000",
+    "bic": "DEUTDEDBXXX",
+    "name": "ElektroParts AG",
+    "currency": "EUR",
+    "product": "Geschaeftsgirokonto",
+    "cashAccountType": "CACC"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "_comment": "--- RANDOM: payroll June 2026 batch credit transfer ---",
+        "transactionId": "TXN-EP-20260626-001",
+        "internalTransactionId": "DEUTDE20260626000001",
+        "bookingDate": "2026-06-26",
+        "valueDate": "2026-06-26",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-310000.00"
+        },
+        "creditorName": null,
+        "creditorAccount": null,
+        "creditorAgent": null,
+        "debtorName": "ElektroParts AG",
+        "debtorAccount": {
+          "iban": "DE89370400440532013000"
+        },
+        "debtorAgent": "DEUTDEDBXXX",
+        "remittanceInformationUnstructured": "GEHALT-JUN26",
+        "additionalInformation": "Gehaltszahlung Juni 2026 Personalstamm 214 Mitarbeiter",
+        "bankTransactionCode": "PMNT-ICDT-SALA",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-SAMMELUEBERWEISUNG",
+          "issuer": "Deutsche Bank AG"
+        },
+        "endToEndId": "BAAG-20260626-GEHALT-JUN26",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1840000.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions/TXN-EP-20260626-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: incoming payment from another customer ---",
+        "transactionId": "TXN-EP-20260710-001",
+        "internalTransactionId": "DEUTDE20260710000001",
+        "bookingDate": "2026-07-10",
+        "valueDate": "2026-07-10",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "74650.00"
+        },
+        "creditorName": "ElektroParts AG",
+        "creditorAccount": {
+          "iban": "DE89370400440532013000"
+        },
+        "creditorAgent": "DEUTDEDBXXX",
+        "debtorName": "Nordauto Werke GmbH",
+        "debtorAccount": {
+          "iban": "DE96200400000012345678"
+        },
+        "debtorAgent": "COBADEFFXXX",
+        "remittanceInformationUnstructured": "RE-2026-5528",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung RE-2026-5528",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Deutsche Bank AG"
+        },
+        "endToEndId": "BAAG-20260710-RE-2026-5528",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1914650.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions/TXN-EP-20260710-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: semiconductor component purchase ---",
+        "transactionId": "TXN-EP-20260715-001",
+        "internalTransactionId": "DEUTDE20260715000001",
+        "bookingDate": "2026-07-15",
+        "valueDate": "2026-07-15",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-168000.00"
+        },
+        "creditorName": "Halbleiter Direktvertrieb GmbH",
+        "creditorAccount": {
+          "iban": "DE64300606010001234567"
+        },
+        "creditorAgent": "GENODED1DKD",
+        "debtorName": "ElektroParts AG",
+        "debtorAccount": {
+          "iban": "DE89370400440532013000"
+        },
+        "debtorAgent": "DEUTDEDBXXX",
+        "remittanceInformationUnstructured": "RM-2026-2245",
+        "additionalInformation": "SEPA Ueberweisung Steuergeraete-Halbleiter RM-2026-2245",
+        "bankTransactionCode": "PMNT-ICDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-UEBERWEISUNG",
+          "issuer": "Deutsche Bank AG"
+        },
+        "endToEndId": "BAAG-20260715-RM-2026-2245",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1746650.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions/TXN-EP-20260715-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- MATCHED TO XERO PAYMENT PAY-EP-2026-0612.json ---",
+        "transactionId": "TXN-EP-20260720-001",
+        "internalTransactionId": "DEUTDE20260720000001",
+        "bookingDate": "2026-07-20",
+        "valueDate": "2026-07-20",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "117215.00"
+        },
+        "creditorName": "ElektroParts AG",
+        "creditorAccount": {
+          "iban": "DE89370400440532013000"
+        },
+        "creditorAgent": "DEUTDEDBXXX",
+        "debtorName": "Bayern Automobil AG",
+        "debtorAccount": {
+          "iban": "DE86700202700123456789"
+        },
+        "debtorAgent": "HYVEDEMM",
+        "remittanceInformationUnstructured": "EP-2026-0612",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung EP-2026-0612",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Deutsche Bank AG"
+        },
+        "endToEndId": "BAAG-20260720-EP-2026-0612",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1863865.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions/TXN-EP-20260720-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- MATCHED TO XERO PAYMENT PAY-EP-2026-0618.json ---",
+        "transactionId": "TXN-EP-20260725-001",
+        "internalTransactionId": "DEUTDE20260725000001",
+        "bookingDate": "2026-07-25",
+        "valueDate": "2026-07-25",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "117215.00"
+        },
+        "creditorName": "ElektroParts AG",
+        "creditorAccount": {
+          "iban": "DE89370400440532013000"
+        },
+        "creditorAgent": "DEUTDEDBXXX",
+        "debtorName": "Bayern Automobil AG",
+        "debtorAccount": {
+          "iban": "DE86700202700123456789"
+        },
+        "debtorAgent": "HYVEDEMM",
+        "remittanceInformationUnstructured": "EP-2026-0618",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung EP-2026-0618",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Deutsche Bank AG"
+        },
+        "endToEndId": "BAAG-20260725-EP-2026-0618",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1981080.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions/TXN-EP-20260725-001"
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001"
+    },
+    "first": {
+      "href": "/v1/accounts/EP-ELECTRONICS-GIRO-EUR-001/transactions?bookingStatus=booked&dateFrom=2026-06-26&dateTo=2026-07-25"
+    }
+  }
+}

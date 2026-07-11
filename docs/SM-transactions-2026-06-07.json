@@ -1,0 +1,229 @@
+{
+  "account": {
+    "resourceId": "SM-STEEL-GIRO-EUR-001",
+    "iban": "DE27200400300123456789",
+    "bic": "COBADEFFXXX",
+    "name": "Stahl und Metall GmbH",
+    "currency": "EUR",
+    "product": "Geschaeftsgirokonto",
+    "cashAccountType": "CACC"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "_comment": "--- RANDOM: incoming payment from another customer ---",
+        "transactionId": "TXN-SM-20260620-001",
+        "internalTransactionId": "COBADE20260620000001",
+        "bookingDate": "2026-06-20",
+        "valueDate": "2026-06-20",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "62400.00"
+        },
+        "creditorName": "Stahl und Metall GmbH",
+        "creditorAccount": {
+          "iban": "DE27200400300123456789"
+        },
+        "creditorAgent": "COBADEFFXXX",
+        "debtorName": "Rheinmetall Nutzfahrzeuge AG",
+        "debtorAccount": {
+          "iban": "DE58500700100934857200"
+        },
+        "debtorAgent": "DEUTDEFFXXX",
+        "remittanceInformationUnstructured": "RE-2026-3312",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung RE-2026-3312",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Commerzbank AG"
+        },
+        "endToEndId": "BAAG-20260620-RE-2026-3312",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1912400.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions/TXN-SM-20260620-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- MATCHED TO XERO PAYMENT PAY-SM-2026-0601.json ---",
+        "transactionId": "TXN-SM-20260624-001",
+        "internalTransactionId": "COBADE20260624000001",
+        "bookingDate": "2026-06-24",
+        "valueDate": "2026-06-24",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "88060.00"
+        },
+        "creditorName": "Stahl und Metall GmbH",
+        "creditorAccount": {
+          "iban": "DE27200400300123456789"
+        },
+        "creditorAgent": "COBADEFFXXX",
+        "debtorName": "Bayern Automobil AG",
+        "debtorAccount": {
+          "iban": "DE86700202700123456789"
+        },
+        "debtorAgent": "HYVEDEMM",
+        "remittanceInformationUnstructured": "SM-2026-0601",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung SM-2026-0601",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Commerzbank AG"
+        },
+        "endToEndId": "BAAG-20260624-SM-2026-0601",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "2000460.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions/TXN-SM-20260624-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: raw steel purchase ---",
+        "transactionId": "TXN-SM-20260701-001",
+        "internalTransactionId": "COBADE20260701000001",
+        "bookingDate": "2026-07-01",
+        "valueDate": "2026-07-01",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-138500.00"
+        },
+        "creditorName": "Ruhrstahl Rohstoffhandel GmbH",
+        "creditorAccount": {
+          "iban": "DE36020030776655440"
+        },
+        "creditorAgent": "RSLGDEDDXXX",
+        "debtorName": "Stahl und Metall GmbH",
+        "debtorAccount": {
+          "iban": "DE27200400300123456789"
+        },
+        "debtorAgent": "COBADEFFXXX",
+        "remittanceInformationUnstructured": "RM-2026-1187",
+        "additionalInformation": "SEPA Ueberweisung Rohstahl-Lieferung RM-2026-1187",
+        "bankTransactionCode": "PMNT-ICDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-UEBERWEISUNG",
+          "issuer": "Commerzbank AG"
+        },
+        "endToEndId": "BAAG-20260701-RM-2026-1187",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1861960.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions/TXN-SM-20260701-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: VAT payment to Finanzamt ---",
+        "transactionId": "TXN-SM-20260710-001",
+        "internalTransactionId": "COBADE20260710000001",
+        "bookingDate": "2026-07-10",
+        "valueDate": "2026-07-10",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-74320.00"
+        },
+        "creditorName": "Finanzamt Dortmund",
+        "creditorAccount": {
+          "iban": "DE55440500000000012300"
+        },
+        "creditorAgent": "WELADEDDXXX",
+        "debtorName": "Stahl und Metall GmbH",
+        "debtorAccount": {
+          "iban": "DE27200400300123456789"
+        },
+        "debtorAgent": "COBADEFFXXX",
+        "remittanceInformationUnstructured": "USt-VZ-06-2026",
+        "additionalInformation": "Umsatzsteuer-Vorauszahlung 06/2026 StNr 315/5027/1841",
+        "bankTransactionCode": "PMNT-IDDT-ESDD",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-LASTSCHRIFT",
+          "issuer": "Commerzbank AG"
+        },
+        "endToEndId": "BAAG-20260710-USt-VZ-06-2026",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1787640.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions/TXN-SM-20260710-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- MATCHED TO XERO PAYMENT PAY-SM-2026-0625.json ---",
+        "transactionId": "TXN-SM-20260718-001",
+        "internalTransactionId": "COBADE20260718000001",
+        "bookingDate": "2026-07-18",
+        "valueDate": "2026-07-18",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "84906.50"
+        },
+        "creditorName": "Stahl und Metall GmbH",
+        "creditorAccount": {
+          "iban": "DE27200400300123456789"
+        },
+        "creditorAgent": "COBADEFFXXX",
+        "debtorName": "Bayern Automobil AG",
+        "debtorAccount": {
+          "iban": "DE86700202700123456789"
+        },
+        "debtorAgent": "HYVEDEMM",
+        "remittanceInformationUnstructured": "SM-2026-0625",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung SM-2026-0625",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Commerzbank AG"
+        },
+        "endToEndId": "BAAG-20260718-SM-2026-0625",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1872546.50"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions/TXN-SM-20260718-001"
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/SM-STEEL-GIRO-EUR-001"
+    },
+    "first": {
+      "href": "/v1/accounts/SM-STEEL-GIRO-EUR-001/transactions?bookingStatus=booked&dateFrom=2026-06-20&dateTo=2026-07-18"
+    }
+  }
+}

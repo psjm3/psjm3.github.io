@@ -1,0 +1,188 @@
+{
+  "account": {
+    "resourceId": "KT-PLASTICS-GIRO-EUR-001",
+    "iban": "DE44500105175407324931",
+    "bic": "BELADEBEXXX",
+    "name": "KunststoffTech GmbH",
+    "currency": "EUR",
+    "product": "Geschaeftsgirokonto",
+    "cashAccountType": "CACC"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "_comment": "--- RANDOM: incoming payment from another customer ---",
+        "transactionId": "TXN-KT-20260630-001",
+        "internalTransactionId": "BELADE20260630000001",
+        "bookingDate": "2026-06-30",
+        "valueDate": "2026-06-30",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "58900.00"
+        },
+        "creditorName": "KunststoffTech GmbH",
+        "creditorAccount": {
+          "iban": "DE44500105175407324931"
+        },
+        "creditorAgent": "BELADEBEXXX",
+        "debtorName": "Sueddeutsche Fahrzeugwerke GmbH",
+        "debtorAccount": {
+          "iban": "DE21600501010012345600"
+        },
+        "debtorAgent": "SOLADEST600",
+        "remittanceInformationUnstructured": "RE-2026-4471",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung RE-2026-4471",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Landesbank Berlin AG"
+        },
+        "endToEndId": "BAAG-20260630-RE-2026-4471",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1048900.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/KT-PLASTICS-GIRO-EUR-001/transactions/TXN-KT-20260630-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: raw plastic granulate purchase ---",
+        "transactionId": "TXN-KT-20260703-001",
+        "internalTransactionId": "BELADE20260703000001",
+        "bookingDate": "2026-07-03",
+        "valueDate": "2026-07-03",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-96200.00"
+        },
+        "creditorName": "PolymerWerke Leuna GmbH",
+        "creditorAccount": {
+          "iban": "DE71800550005001234567"
+        },
+        "creditorAgent": "NOLADE21LEI",
+        "debtorName": "KunststoffTech GmbH",
+        "debtorAccount": {
+          "iban": "DE44500105175407324931"
+        },
+        "debtorAgent": "BELADEBEXXX",
+        "remittanceInformationUnstructured": "RM-2026-0893",
+        "additionalInformation": "SEPA Ueberweisung Kunststoffgranulat RM-2026-0893",
+        "bankTransactionCode": "PMNT-ICDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-UEBERWEISUNG",
+          "issuer": "Landesbank Berlin AG"
+        },
+        "endToEndId": "BAAG-20260703-RM-2026-0893",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "952700.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/KT-PLASTICS-GIRO-EUR-001/transactions/TXN-KT-20260703-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- RANDOM: factory lease July 2026 ---",
+        "transactionId": "TXN-KT-20260705-001",
+        "internalTransactionId": "BELADE20260705000001",
+        "bookingDate": "2026-07-05",
+        "valueDate": "2026-07-05",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-42000.00"
+        },
+        "creditorName": "Gewerbepark Spandau Immobilien GmbH",
+        "creditorAccount": {
+          "iban": "DE13100500000054321000"
+        },
+        "creditorAgent": "BELADEBEXXX",
+        "debtorName": "KunststoffTech GmbH",
+        "debtorAccount": {
+          "iban": "DE44500105175407324931"
+        },
+        "debtorAgent": "BELADEBEXXX",
+        "remittanceInformationUnstructured": "MV-2023-KT-011",
+        "additionalInformation": "Miete Juli 2026 Werk Spandau MV-2023-KT-011",
+        "bankTransactionCode": "PMNT-ICDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-UEBERWEISUNG",
+          "issuer": "Landesbank Berlin AG"
+        },
+        "endToEndId": "BAAG-20260705-MV-2023-KT-011",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "910700.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/KT-PLASTICS-GIRO-EUR-001/transactions/TXN-KT-20260705-001"
+          }
+        }
+      },
+      {
+        "_comment": "--- MATCHED TO XERO PAYMENT PAY-KT-2026-0614.json ---",
+        "transactionId": "TXN-KT-20260708-001",
+        "internalTransactionId": "BELADE20260708000001",
+        "bookingDate": "2026-07-08",
+        "valueDate": "2026-07-08",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "144228.00"
+        },
+        "creditorName": "KunststoffTech GmbH",
+        "creditorAccount": {
+          "iban": "DE44500105175407324931"
+        },
+        "creditorAgent": "BELADEBEXXX",
+        "debtorName": "Bayern Automobil AG",
+        "debtorAccount": {
+          "iban": "DE86700202700123456789"
+        },
+        "debtorAgent": "HYVEDEMM",
+        "remittanceInformationUnstructured": "KT-2026-0614",
+        "additionalInformation": "SEPA Gutschrift Kundenzahlung KT-2026-0614",
+        "bankTransactionCode": "PMNT-RCDT-ESCT",
+        "proprietaryBankTransactionCode": {
+          "code": "SEPA-GUTSCHRIFT",
+          "issuer": "Landesbank Berlin AG"
+        },
+        "endToEndId": "BAAG-20260708-KT-2026-0614",
+        "balanceAfterTransaction": {
+          "balanceAmount": {
+            "currency": "EUR",
+            "amount": "1054928.00"
+          },
+          "balanceType": "interimAvailable"
+        },
+        "_links": {
+          "transactionDetails": {
+            "href": "/psd2/v1/accounts/KT-PLASTICS-GIRO-EUR-001/transactions/TXN-KT-20260708-001"
+          }
+        }
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/KT-PLASTICS-GIRO-EUR-001"
+    },
+    "first": {
+      "href": "/v1/accounts/KT-PLASTICS-GIRO-EUR-001/transactions?bookingStatus=booked&dateFrom=2026-06-30&dateTo=2026-07-08"
+    }
+  }
+}
