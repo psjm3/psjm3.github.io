@@ -12,7 +12,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-06-24T11:00:00+00:00",
+        "BookingDateTime": "24/06/2026",
         "ValueDateTime": "2026-06-24T11:00:00+00:00",
         "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung SM-2026-0601",
         "BankTransactionCode": {
@@ -61,7 +61,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-06-28T10:30:00+00:00",
+        "BookingDateTime": "28/06/2026",
         "ValueDateTime": "2026-06-28T10:30:00+00:00",
         "TransactionInformation": "Koerperschaftsteuer-Vorauszahlung Q2 2026 StNr 143/114/51234",
         "BankTransactionCode": {
@@ -110,7 +110,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-06-30T06:00:00+00:00",
+        "BookingDateTime": "30/06/2026",
         "ValueDateTime": "2026-06-30T06:00:00+00:00",
         "TransactionInformation": "Gehaltszahlung Juni 2026 Personalstamm 1247 Mitarbeiter",
         "BankTransactionCode": {
@@ -159,7 +159,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-01T09:00:00+00:00",
+        "BookingDateTime": "01/07/2026",
         "ValueDateTime": "2026-07-01T09:00:00+00:00",
         "TransactionInformation": "Miete Juli 2026 Werk 3 Industriestr. 50 Muenchen MV-2024-BAAG-003",
         "BankTransactionCode": {
@@ -208,7 +208,7 @@
         },
         "CreditDebitIndicator": "Credit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-02T14:20:00+00:00",
+        "BookingDateTime": "02/07/2026",
         "ValueDateTime": "2026-07-02T14:20:00+00:00",
         "TransactionInformation": "Auftrag AN-2026-0589 Fahrzeuglieferung Mai 2026 BA-INV-2026-0478",
         "BankTransactionCode": {
@@ -257,7 +257,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-05T08:45:00+00:00",
+        "BookingDateTime": "05/07/2026",
         "ValueDateTime": "2026-07-05T08:45:00+00:00",
         "TransactionInformation": "Stromkosten Q2 2026 Kundennr. 123456789 Rechnungsnr. SWM-2026-Q2-004",
         "BankTransactionCode": {
@@ -306,7 +306,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-08T11:00:00+00:00",
+        "BookingDateTime": "08/07/2026",
         "ValueDateTime": "2026-07-08T11:00:00+00:00",
         "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung KT-2026-0614",
         "BankTransactionCode": {
@@ -355,7 +355,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-18T11:00:00+00:00",
+        "BookingDateTime": "18/07/2026",
         "ValueDateTime": "2026-07-18T11:00:00+00:00",
         "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung SM-2026-0625",
         "BankTransactionCode": {
@@ -404,7 +404,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-20T11:00:00+00:00",
+        "BookingDateTime": "20/07/2026",
         "ValueDateTime": "2026-07-20T11:00:00+00:00",
         "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung EP-2026-0612",
         "BankTransactionCode": {
@@ -453,7 +453,7 @@
         },
         "CreditDebitIndicator": "Debit",
         "Status": "BOOK",
-        "BookingDateTime": "2026-07-25T11:00:00+00:00",
+        "BookingDateTime": "25/07/2026",
         "ValueDateTime": "2026-07-25T11:00:00+00:00",
         "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung EP-2026-0618",
         "BankTransactionCode": {
