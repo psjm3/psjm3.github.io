@@ -121,6 +121,15 @@
           "Code": "SEPA-SAMMELUEBERWEISUNG",
           "Issuer": "HypoVereinsbank"
         },
+        "CreditorAgent": {
+          "SchemeName": "UK.OBIE.BICFI",
+          "Identification": "HYVEDEMM"
+        },
+        "CreditorAccount": {
+          "SchemeName": "UK.OBIE.IBAN",
+          "Identification": "DE21700202700014823020",
+          "Name": "Finanzamt Muenchen"
+        },
         "DebtorAgent": {
           "SchemeName": "UK.OBIE.BICFI",
           "Identification": "HYVEDEMM"
