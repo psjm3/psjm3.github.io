@@ -1,42 +1,10 @@
 {
-  "account_holder": "Alex Rivera",
-  "account_number": "XXXX-8829-1023",
-  "currency": "USD",
-  "statement_period": "2023-10-01 to 2023-10-31",
-  "summary": {
-    "opening_balance": 4250.00,
-    "total_deposits": 1200.00,
-    "total_withdrawals": 540.50,
-    "closing_balance": 4909.50
-  },
-  "transactions": [
-    {
-      "id": "tx_001",
-      "date": "2023-10-03",
-      "description": "Organic Groceries Market",
-      "amount": -85.20,
-      "type": "debit"
-    },
-    {
-      "id": "tx_002",
-      "date": "2023-10-05",
-      "description": "Payroll Deposit - TechCorp",
-      "amount": 1200.00,
-      "type": "credit"
-    },
-    {
-      "id": "tx_003",
-      "date": "2023-10-12",
-      "description": "Monthly Streaming Subscription",
-      "amount": -15.99,
-      "type": "debit"
-    },
-    {
-      "id": "tx_004",
-      "date": "2023-10-15",
-      "description": "City Utility Bill",
-      "amount": -145.31,
-      "type": "debit"
-    }
-  ]
+  "Data": {
+    "Transaction": [
+      {
+        "AccountId": "70211412345678",
+        "TransactionId": "TXN-BAAG-20260624-001"
+      }
+    ]
+  }
 }
