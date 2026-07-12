@@ -1,9 +1,9 @@
-{
-"Data": {
-  "Transaction": []
-},
-"Links": {
-},
-"Meta": {
-}
+"all_transactions": {
+  "Data": {
+    "Transaction": []
+  },
+  "Links": {
+  },
+  "Meta": {
+  }
 }
