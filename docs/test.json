@@ -4,6 +4,50 @@
       {
         "AccountId": "70211412345678",
         "TransactionId": "TXN-BAAG-20260624-001"
+        "TransactionReference": "SM-2026-0601",
+        "Amount": {
+          "Amount": "88060.00",
+          "Currency": "EUR"
+        },
+        "CreditDebitIndicator": "Debit",
+        "Status": "BOOK",
+        "BookingDateTime": "2026-06-24T11:00:00+00:00",
+        "ValueDateTime": "2026-06-24T11:00:00+00:00",
+        "TransactionInformation": "SEPA Ueberweisung Lieferantenrechnung SM-2026-0601",
+        "BankTransactionCode": {
+          "Code": "ICDT",
+          "SubCode": "ESCT"
+        },
+        "ProprietaryBankTransactionCode": {
+          "Code": "SEPA-UEBERWEISUNG",
+          "Issuer": "HypoVereinsbank"
+        },
+        "CreditorAgent": {
+          "SchemeName": "UK.OBIE.BICFI",
+          "Identification": "COBADEFFXXX"
+        },
+        "CreditorAccount": {
+          "SchemeName": "UK.OBIE.IBAN",
+          "Identification": "DE27200400300123456789",
+          "Name": "Stahl und Metall GmbH"
+        },
+        "DebtorAgent": {
+          "SchemeName": "UK.OBIE.BICFI",
+          "Identification": "HYVEDEMM"
+        },
+        "DebtorAccount": {
+          "SchemeName": "UK.OBIE.IBAN",
+          "Identification": "DE86700202700123456789",
+          "Name": "Bayern Automobil AG"
+        },
+        "Balance": {
+          "CreditDebitIndicator": "Credit",
+          "Type": "ITBD",
+          "Amount": {
+            "Amount": "8411940.00",
+            "Currency": "EUR"
+          }
+        }
       }
     ]
   }
