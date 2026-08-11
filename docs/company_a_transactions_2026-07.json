@@ -1,0 +1,341 @@
+{
+  "account": {
+    "iban": "DE62370400440532013001",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "9dedd8a9-9161-4992-bd4c-162e5c4a1ada",
+        "entryReference": "ER-INV-STL-2026-001",
+        "endToEndId": "INV-STL-2026-001",
+        "bookingDate": "2026-07-01",
+        "valueDate": "2026-07-01",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-26418.00"
+        },
+        "creditorName": "Stahlwerk Nord GmbH",
+        "creditorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "creditorAgent": "NDBKDEBRXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-STL-2026-001 - Stahlwerk Nord GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "63807707-6ac3-4625-9137-3a685f8ac156",
+        "entryReference": "ER-INV-CRG-2026-001",
+        "endToEndId": "INV-CRG-2026-001",
+        "bookingDate": "2026-07-02",
+        "valueDate": "2026-07-02",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-45220.00"
+        },
+        "creditorName": "Continental Reifen & Gummi KG",
+        "creditorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "creditorAgent": "HNKBDEHAXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CRG-2026-001 - Continental Reifen & Gummi KG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a1193a74-99d2-4659-979d-58b4b26c651b",
+        "entryReference": "ER-INV-PCB-2026-001",
+        "endToEndId": "INV-PCB-2026-001",
+        "bookingDate": "2026-07-03",
+        "valueDate": "2026-07-03",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-74970.00"
+        },
+        "creditorName": "PowerCell Battery Systems AG",
+        "creditorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "creditorAgent": "GRZBATXXXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PCB-2026-001 - PowerCell Battery Systems AG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "b3830478-ae7f-45b5-8223-e0296dffa8ed",
+        "entryReference": "ER-INV-GLK-2026-001",
+        "endToEndId": "INV-GLK-2026-001",
+        "bookingDate": "2026-07-05",
+        "valueDate": "2026-07-05",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-52360.00"
+        },
+        "creditorName": "GlasKraft Sicherheitsglas GmbH",
+        "creditorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "creditorAgent": "AAGBDEACXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GLK-2026-001 - GlasKraft Sicherheitsglas GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "6c7375e6-ee59-4f54-83c9-713910d0fc2a",
+        "entryReference": "ER-INV-CRG-2026-002",
+        "endToEndId": "INV-CRG-2026-002",
+        "bookingDate": "2026-07-08",
+        "valueDate": "2026-07-08",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-33320.00"
+        },
+        "creditorName": "Continental Reifen & Gummi KG",
+        "creditorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "creditorAgent": "HNKBDEHAXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CRG-2026-002 - Continental Reifen & Gummi KG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "88e81459-464e-4d15-a83d-d9ac69df6f6c",
+        "entryReference": "ER-INV-STL-2026-002",
+        "endToEndId": "INV-STL-2026-002",
+        "bookingDate": "2026-07-09",
+        "valueDate": "2026-07-09",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-17701.25"
+        },
+        "creditorName": "Stahlwerk Nord GmbH",
+        "creditorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "creditorAgent": "NDBKDEBRXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-STL-2026-002 - Stahlwerk Nord GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "f3ad3d1b-19af-424c-9e0b-ee3de0de617b",
+        "entryReference": "ER-INV-VTE-2026-002",
+        "endToEndId": "INV-VTE-2026-002",
+        "bookingDate": "2026-07-12",
+        "valueDate": "2026-07-12",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-51765.00"
+        },
+        "creditorName": "VisionTech Electronics SE",
+        "creditorAccount": {
+          "iban": "NL69INGB0123456789"
+        },
+        "creditorAgent": "EHVZNL2AXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-VTE-2026-002 - VisionTech Electronics SE",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "73c7298c-61d2-474e-99e4-567f5b9c49f0",
+        "entryReference": "ER-INV-GLK-2026-002",
+        "endToEndId": "INV-GLK-2026-002",
+        "bookingDate": "2026-07-13",
+        "valueDate": "2026-07-13",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-32368.00"
+        },
+        "creditorName": "GlasKraft Sicherheitsglas GmbH",
+        "creditorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "creditorAgent": "AAGBDEACXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GLK-2026-002 - GlasKraft Sicherheitsglas GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a81c2d6f-936d-4826-9a70-5cda44cb6471",
+        "entryReference": "ER-INV-CRG-2026-003",
+        "endToEndId": "INV-CRG-2026-003",
+        "bookingDate": "2026-07-15",
+        "valueDate": "2026-07-15",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-47243.00"
+        },
+        "creditorName": "Continental Reifen & Gummi KG",
+        "creditorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "creditorAgent": "HNKBDEHAXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CRG-2026-003 - Continental Reifen & Gummi KG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a9a359d5-f306-4ff0-bfe2-56360c1af585",
+        "entryReference": "ER-INV-VTE-2026-003",
+        "endToEndId": "INV-VTE-2026-003",
+        "bookingDate": "2026-07-18",
+        "valueDate": "2026-07-18",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-54740.00"
+        },
+        "creditorName": "VisionTech Electronics SE",
+        "creditorAccount": {
+          "iban": "NL69INGB0123456789"
+        },
+        "creditorAgent": "EHVZNL2AXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-VTE-2026-003 - VisionTech Electronics SE",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "5bca82b7-edac-4567-b5fc-e9c89e289f31",
+        "entryReference": "ER-INV-PCB-2026-003",
+        "endToEndId": "INV-PCB-2026-003",
+        "bookingDate": "2026-07-22",
+        "valueDate": "2026-07-22",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-39984.00"
+        },
+        "creditorName": "PowerCell Battery Systems AG",
+        "creditorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "creditorAgent": "GRZBATXXXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PCB-2026-003 - PowerCell Battery Systems AG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "7f10d2eb-809f-4fff-9634-31f62164e8bb",
+        "entryReference": "ER-INV-STL-2026-004",
+        "endToEndId": "INV-STL-2026-004",
+        "bookingDate": "2026-07-24",
+        "valueDate": "2026-07-24",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-17076.50"
+        },
+        "creditorName": "Stahlwerk Nord GmbH",
+        "creditorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "creditorAgent": "NDBKDEBRXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-STL-2026-004 - Stahlwerk Nord GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a22d3ece-c414-42dd-805c-58d61b6b4c02",
+        "entryReference": "ER-INV-GLK-2026-004",
+        "endToEndId": "INV-GLK-2026-004",
+        "bookingDate": "2026-07-28",
+        "valueDate": "2026-07-28",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-34748.00"
+        },
+        "creditorName": "GlasKraft Sicherheitsglas GmbH",
+        "creditorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "creditorAgent": "AAGBDEACXXX",
+        "debtorName": "AutoWerk Fahrzeugbau GmbH",
+        "debtorAccount": {
+          "iban": "DE62370400440532013001"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GLK-2026-004 - GlasKraft Sicherheitsglas GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/430e51d5-362d-52c7-bb81-194855490d59"
+    }
+  }
+}

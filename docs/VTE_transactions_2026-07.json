@@ -1,0 +1,91 @@
+{
+  "account": {
+    "iban": "NL69INGB0123456789",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "33245af5-227c-4eb4-962a-3927e8033b49",
+        "entryReference": "ER-INV-SFS-2026-001",
+        "endToEndId": "INV-SFS-2026-001",
+        "bookingDate": "2026-07-06",
+        "valueDate": "2026-07-06",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-49980.00"
+        },
+        "creditorName": "SiliconForge Semiconductor B.V.",
+        "creditorAccount": {
+          "iban": "NL55ETBK0987654321"
+        },
+        "creditorAgent": "ETBKNL2AXXX",
+        "debtorName": "VisionTech Electronics SE",
+        "debtorAccount": {
+          "iban": "NL69INGB0123456789"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SFS-2026-001 - SiliconForge Semiconductor B.V.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "0a07e530-8b6c-4a02-b775-b143409aa88a",
+        "entryReference": "ER-INV-SFS-2026-002",
+        "endToEndId": "INV-SFS-2026-002",
+        "bookingDate": "2026-07-13",
+        "valueDate": "2026-07-13",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-29512.00"
+        },
+        "creditorName": "SiliconForge Semiconductor B.V.",
+        "creditorAccount": {
+          "iban": "NL55ETBK0987654321"
+        },
+        "creditorAgent": "ETBKNL2AXXX",
+        "debtorName": "VisionTech Electronics SE",
+        "debtorAccount": {
+          "iban": "NL69INGB0123456789"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SFS-2026-002 - SiliconForge Semiconductor B.V.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "602de882-9ad8-4e56-beee-210b0691ce9b",
+        "entryReference": "ER-INV-SFS-2026-003",
+        "endToEndId": "INV-SFS-2026-003",
+        "bookingDate": "2026-07-20",
+        "valueDate": "2026-07-20",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-37366.00"
+        },
+        "creditorName": "SiliconForge Semiconductor B.V.",
+        "creditorAccount": {
+          "iban": "NL55ETBK0987654321"
+        },
+        "creditorAgent": "ETBKNL2AXXX",
+        "debtorName": "VisionTech Electronics SE",
+        "debtorAccount": {
+          "iban": "NL69INGB0123456789"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SFS-2026-003 - SiliconForge Semiconductor B.V.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/c797e825-e7f9-55cd-94fd-e895b8c5ea40"
+    }
+  }
+}

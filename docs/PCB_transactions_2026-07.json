@@ -1,0 +1,216 @@
+{
+  "account": {
+    "iban": "AT611904300234573201",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "70e023ae-cbb8-401b-8ef9-ed31001c7878",
+        "entryReference": "ER-INV-LXI-2026-001",
+        "endToEndId": "INV-LXI-2026-001",
+        "bookingDate": "2026-07-01",
+        "valueDate": "2026-07-01",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-19278.00"
+        },
+        "creditorName": "Lithium Extract Iberia S.L.",
+        "creditorAccount": {
+          "iban": "ES6621000418401234567891"
+        },
+        "creditorAgent": "BMISESMMXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-LXI-2026-001 - Lithium Extract Iberia S.L.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "c0996cbc-05c3-4eeb-847a-e4efebbddc5f",
+        "entryReference": "ER-INV-CTE-2026-001",
+        "endToEndId": "INV-CTE-2026-001",
+        "bookingDate": "2026-07-05",
+        "valueDate": "2026-07-05",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-16279.20"
+        },
+        "creditorName": "CathodeTech Europe GmbH",
+        "creditorAccount": {
+          "iban": "DE93860502000003217654"
+        },
+        "creditorAgent": "MIBKDELPXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CTE-2026-001 - CathodeTech Europe GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "35d97d69-d6ce-46b6-b031-35a3d8fc92ec",
+        "entryReference": "ER-INV-CTA-2026-001",
+        "endToEndId": "INV-CTA-2026-001",
+        "bookingDate": "2026-07-07",
+        "valueDate": "2026-07-07",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-13328.00"
+        },
+        "creditorName": "CobaltTrade Antwerp NV",
+        "creditorAccount": {
+          "iban": "BE29363123456789"
+        },
+        "creditorAgent": "AMBKBEBBXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CTA-2026-001 - CobaltTrade Antwerp NV",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a797fea7-d5d7-43b4-b021-c952b491a3e1",
+        "entryReference": "ER-INV-LXI-2026-002",
+        "endToEndId": "INV-LXI-2026-002",
+        "bookingDate": "2026-07-08",
+        "valueDate": "2026-07-08",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-14458.50"
+        },
+        "creditorName": "Lithium Extract Iberia S.L.",
+        "creditorAccount": {
+          "iban": "ES6621000418401234567891"
+        },
+        "creditorAgent": "BMISESMMXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-LXI-2026-002 - Lithium Extract Iberia S.L.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "4a569118-a344-49de-aa83-0d45a4ca12f9",
+        "entryReference": "ER-INV-CTE-2026-002",
+        "endToEndId": "INV-CTE-2026-002",
+        "bookingDate": "2026-07-12",
+        "valueDate": "2026-07-12",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-13566.00"
+        },
+        "creditorName": "CathodeTech Europe GmbH",
+        "creditorAccount": {
+          "iban": "DE93860502000003217654"
+        },
+        "creditorAgent": "MIBKDELPXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CTE-2026-002 - CathodeTech Europe GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "2cd08561-5949-44d3-a8e9-aaaf02e464bc",
+        "entryReference": "ER-INV-LXI-2026-003",
+        "endToEndId": "INV-LXI-2026-003",
+        "bookingDate": "2026-07-15",
+        "valueDate": "2026-07-15",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-24097.50"
+        },
+        "creditorName": "Lithium Extract Iberia S.L.",
+        "creditorAccount": {
+          "iban": "ES6621000418401234567891"
+        },
+        "creditorAgent": "BMISESMMXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-LXI-2026-003 - Lithium Extract Iberia S.L.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "8ffaf986-4d8d-437e-b8ba-8f814dcaa03e",
+        "entryReference": "ER-INV-CTA-2026-003",
+        "endToEndId": "INV-CTA-2026-003",
+        "bookingDate": "2026-07-17",
+        "valueDate": "2026-07-17",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-14660.80"
+        },
+        "creditorName": "CobaltTrade Antwerp NV",
+        "creditorAccount": {
+          "iban": "BE29363123456789"
+        },
+        "creditorAgent": "AMBKBEBBXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CTA-2026-003 - CobaltTrade Antwerp NV",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "7f85edc0-ce6c-41e5-8cde-124ed55e3745",
+        "entryReference": "ER-INV-CTE-2026-003",
+        "endToEndId": "INV-CTE-2026-003",
+        "bookingDate": "2026-07-19",
+        "valueDate": "2026-07-19",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-20349.00"
+        },
+        "creditorName": "CathodeTech Europe GmbH",
+        "creditorAccount": {
+          "iban": "DE93860502000003217654"
+        },
+        "creditorAgent": "MIBKDELPXXX",
+        "debtorName": "PowerCell Battery Systems AG",
+        "debtorAccount": {
+          "iban": "AT611904300234573201"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CTE-2026-003 - CathodeTech Europe GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/4e74f958-048a-57e1-8eee-591b834180b7"
+    }
+  }
+}

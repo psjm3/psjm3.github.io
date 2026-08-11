@@ -1,0 +1,141 @@
+{
+  "account": {
+    "iban": "DE75290500000001234567",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "09d7a61f-d62d-4db2-a82d-dcdc39420042",
+        "entryReference": "ER-INV-ERZ-2026-001",
+        "endToEndId": "INV-ERZ-2026-001",
+        "bookingDate": "2026-07-01",
+        "valueDate": "2026-07-01",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-16065.00"
+        },
+        "creditorName": "Erzhandel Ruhr GmbH",
+        "creditorAccount": {
+          "iban": "DE58360501050007412365"
+        },
+        "creditorAgent": "RRBKDEDUXXX",
+        "debtorName": "Stahlwerk Nord GmbH",
+        "debtorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-ERZ-2026-001 - Erzhandel Ruhr GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "8122a4a0-34d2-487d-862b-babdf14592fa",
+        "entryReference": "ER-INV-LWS-2026-001",
+        "endToEndId": "INV-LWS-2026-001",
+        "bookingDate": "2026-07-04",
+        "valueDate": "2026-07-04",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-11424.00"
+        },
+        "creditorName": "Legierungswerk Sachsen AG",
+        "creditorAccount": {
+          "iban": "DE68870502990002198765"
+        },
+        "creditorAgent": "SMBKDEF1XXX",
+        "debtorName": "Stahlwerk Nord GmbH",
+        "debtorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-LWS-2026-001 - Legierungswerk Sachsen AG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "79a216b0-d8da-46b9-b32b-05426bca3d69",
+        "entryReference": "ER-INV-ERZ-2026-002",
+        "endToEndId": "INV-ERZ-2026-002",
+        "bookingDate": "2026-07-09",
+        "valueDate": "2026-07-09",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-16065.00"
+        },
+        "creditorName": "Erzhandel Ruhr GmbH",
+        "creditorAccount": {
+          "iban": "DE58360501050007412365"
+        },
+        "creditorAgent": "RRBKDEDUXXX",
+        "debtorName": "Stahlwerk Nord GmbH",
+        "debtorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-ERZ-2026-002 - Erzhandel Ruhr GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "5993ff8e-be8e-4b76-b0df-74f0fd303eca",
+        "entryReference": "ER-INV-ERZ-2026-003",
+        "endToEndId": "INV-ERZ-2026-003",
+        "bookingDate": "2026-07-16",
+        "valueDate": "2026-07-16",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-21420.00"
+        },
+        "creditorName": "Erzhandel Ruhr GmbH",
+        "creditorAccount": {
+          "iban": "DE58360501050007412365"
+        },
+        "creditorAgent": "RRBKDEDUXXX",
+        "debtorName": "Stahlwerk Nord GmbH",
+        "debtorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-ERZ-2026-003 - Erzhandel Ruhr GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "89975818-e386-4106-b348-876b0eb66491",
+        "entryReference": "ER-INV-LWS-2026-003",
+        "endToEndId": "INV-LWS-2026-003",
+        "bookingDate": "2026-07-18",
+        "valueDate": "2026-07-18",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-13744.50"
+        },
+        "creditorName": "Legierungswerk Sachsen AG",
+        "creditorAccount": {
+          "iban": "DE68870502990002198765"
+        },
+        "creditorAgent": "SMBKDEF1XXX",
+        "debtorName": "Stahlwerk Nord GmbH",
+        "debtorAccount": {
+          "iban": "DE75290500000001234567"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-LWS-2026-003 - Legierungswerk Sachsen AG",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/80820f88-c354-50ba-8538-c8c195882e9c"
+    }
+  }
+}
