@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "IT41M0542801234123456789012",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "b8e60290-c902-5744-ae8d-c6d932b7dd75",
+        "entryReference": "ER-INV-GHI-2026-001",
+        "endToEndId": "INV-GHI-2026-001",
+        "bookingDate": "2026-07-06",
+        "valueDate": "2026-07-06",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-42840.00"
+        },
+        "creditorName": "Fonderia Ghisa Torino S.p.A.",
+        "creditorAccount": {
+          "iban": "IT83N0604509876543210987654"
+        },
+        "creditorAgent": "FGTOITMMXXX",
+        "debtorName": "FrenoTech Sistemi Frenanti S.p.A.",
+        "debtorAccount": {
+          "iban": "IT41M0542801234123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GHI-2026-001 - Fonderia Ghisa Torino S.p.A.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "54aacba1-a635-5209-94b9-8bceadf70cfd",
+        "entryReference": "ER-INV-GHI-2026-002",
+        "endToEndId": "INV-GHI-2026-002",
+        "bookingDate": "2026-07-13",
+        "valueDate": "2026-07-13",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-39984.00"
+        },
+        "creditorName": "Fonderia Ghisa Torino S.p.A.",
+        "creditorAccount": {
+          "iban": "IT83N0604509876543210987654"
+        },
+        "creditorAgent": "FGTOITMMXXX",
+        "debtorName": "FrenoTech Sistemi Frenanti S.p.A.",
+        "debtorAccount": {
+          "iban": "IT41M0542801234123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GHI-2026-002 - Fonderia Ghisa Torino S.p.A.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "71fb4c8d-560b-5c7d-a1f8-d2be1dc0fd6f",
+        "entryReference": "ER-INV-GHI-2026-003",
+        "endToEndId": "INV-GHI-2026-003",
+        "bookingDate": "2026-07-20",
+        "valueDate": "2026-07-20",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-45696.00"
+        },
+        "creditorName": "Fonderia Ghisa Torino S.p.A.",
+        "creditorAccount": {
+          "iban": "IT83N0604509876543210987654"
+        },
+        "creditorAgent": "FGTOITMMXXX",
+        "debtorName": "FrenoTech Sistemi Frenanti S.p.A.",
+        "debtorAccount": {
+          "iban": "IT41M0542801234123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GHI-2026-003 - Fonderia Ghisa Torino S.p.A.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "fa8c7b13-2807-5d0f-a999-2617ac5f27d4",
+        "entryReference": "ER-INV-GHI-2026-004",
+        "endToEndId": "INV-GHI-2026-004",
+        "bookingDate": "2026-07-27",
+        "valueDate": "2026-07-27",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-37128.00"
+        },
+        "creditorName": "Fonderia Ghisa Torino S.p.A.",
+        "creditorAccount": {
+          "iban": "IT83N0604509876543210987654"
+        },
+        "creditorAgent": "FGTOITMMXXX",
+        "debtorName": "FrenoTech Sistemi Frenanti S.p.A.",
+        "debtorAccount": {
+          "iban": "IT41M0542801234123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-GHI-2026-004 - Fonderia Ghisa Torino S.p.A.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/7cd097b6-1ea9-5e98-a958-180e85814f09"
+    }
+  }
+}

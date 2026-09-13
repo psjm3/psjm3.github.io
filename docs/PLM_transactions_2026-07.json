@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "FR6830003000010002012345685",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "339d4110-dfb1-5d48-9bda-e0d05e008c4f",
+        "entryReference": "ER-INV-PLR-2026-001",
+        "endToEndId": "INV-PLR-2026-001",
+        "bookingDate": "2026-07-04",
+        "valueDate": "2026-07-04",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-32725.00"
+        },
+        "creditorName": "Polymere du Rhone SAS",
+        "creditorAccount": {
+          "iban": "FR0930004000020001098765432"
+        },
+        "creditorAgent": "PDRHFRPPXXX",
+        "debtorName": "PlastiForm Interieur SAS",
+        "debtorAccount": {
+          "iban": "FR6830003000010002012345685"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PLR-2026-001 - Polymere du Rhone SAS",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "3918f6a9-d9e6-5991-833a-444138806e5d",
+        "entryReference": "ER-INV-PLR-2026-002",
+        "endToEndId": "INV-PLR-2026-002",
+        "bookingDate": "2026-07-11",
+        "valueDate": "2026-07-11",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-28798.00"
+        },
+        "creditorName": "Polymere du Rhone SAS",
+        "creditorAccount": {
+          "iban": "FR0930004000020001098765432"
+        },
+        "creditorAgent": "PDRHFRPPXXX",
+        "debtorName": "PlastiForm Interieur SAS",
+        "debtorAccount": {
+          "iban": "FR6830003000010002012345685"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PLR-2026-002 - Polymere du Rhone SAS",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "672f6fe6-8b92-5a08-bb46-fc308cfc9bf9",
+        "entryReference": "ER-INV-PLR-2026-003",
+        "endToEndId": "INV-PLR-2026-003",
+        "bookingDate": "2026-07-18",
+        "valueDate": "2026-07-18",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-36652.00"
+        },
+        "creditorName": "Polymere du Rhone SAS",
+        "creditorAccount": {
+          "iban": "FR0930004000020001098765432"
+        },
+        "creditorAgent": "PDRHFRPPXXX",
+        "debtorName": "PlastiForm Interieur SAS",
+        "debtorAccount": {
+          "iban": "FR6830003000010002012345685"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PLR-2026-003 - Polymere du Rhone SAS",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "3f3b1eb6-8c97-5921-a82d-54fec323d9ea",
+        "entryReference": "ER-INV-PLR-2026-004",
+        "endToEndId": "INV-PLR-2026-004",
+        "bookingDate": "2026-07-25",
+        "valueDate": "2026-07-25",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-26180.00"
+        },
+        "creditorName": "Polymere du Rhone SAS",
+        "creditorAccount": {
+          "iban": "FR0930004000020001098765432"
+        },
+        "creditorAgent": "PDRHFRPPXXX",
+        "debtorName": "PlastiForm Interieur SAS",
+        "debtorAccount": {
+          "iban": "FR6830003000010002012345685"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PLR-2026-004 - Polymere du Rhone SAS",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/82c0fcea-d0ef-5a7f-a4bd-fe8c0eb3527d"
+    }
+  }
+}

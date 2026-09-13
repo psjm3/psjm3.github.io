@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "DE81390500000004561230",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "e852118f-42b2-58c9-ad49-73806fc29dc0",
+        "entryReference": "ER-INV-SIL-2026-001",
+        "endToEndId": "INV-SIL-2026-001",
+        "bookingDate": "2026-07-03",
+        "valueDate": "2026-07-03",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-11424.00"
+        },
+        "creditorName": "Floatglas Lausitz GmbH",
+        "creditorAccount": {
+          "iban": "DE86360501990001122334"
+        },
+        "creditorAgent": "FGLKDEWWXXX",
+        "debtorName": "GlasKraft Sicherheitsglas GmbH",
+        "debtorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SIL-2026-001 - Floatglas Lausitz GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "639cc507-e9dd-526a-aaf0-361acbd27e90",
+        "entryReference": "ER-INV-SIL-2026-002",
+        "endToEndId": "INV-SIL-2026-002",
+        "bookingDate": "2026-07-10",
+        "valueDate": "2026-07-10",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-10710.00"
+        },
+        "creditorName": "Floatglas Lausitz GmbH",
+        "creditorAccount": {
+          "iban": "DE86360501990001122334"
+        },
+        "creditorAgent": "FGLKDEWWXXX",
+        "debtorName": "GlasKraft Sicherheitsglas GmbH",
+        "debtorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SIL-2026-002 - Floatglas Lausitz GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "26f9a5a1-e08b-5aee-9224-3f1a4d62d4bc",
+        "entryReference": "ER-INV-SIL-2026-003",
+        "endToEndId": "INV-SIL-2026-003",
+        "bookingDate": "2026-07-17",
+        "valueDate": "2026-07-17",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-12852.00"
+        },
+        "creditorName": "Floatglas Lausitz GmbH",
+        "creditorAccount": {
+          "iban": "DE86360501990001122334"
+        },
+        "creditorAgent": "FGLKDEWWXXX",
+        "debtorName": "GlasKraft Sicherheitsglas GmbH",
+        "debtorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SIL-2026-003 - Floatglas Lausitz GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "a2d62d66-0c11-542d-8b52-3aee88729013",
+        "entryReference": "ER-INV-SIL-2026-004",
+        "endToEndId": "INV-SIL-2026-004",
+        "bookingDate": "2026-07-24",
+        "valueDate": "2026-07-24",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-9996.00"
+        },
+        "creditorName": "Floatglas Lausitz GmbH",
+        "creditorAccount": {
+          "iban": "DE86360501990001122334"
+        },
+        "creditorAgent": "FGLKDEWWXXX",
+        "debtorName": "GlasKraft Sicherheitsglas GmbH",
+        "debtorAccount": {
+          "iban": "DE81390500000004561230"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SIL-2026-004 - Floatglas Lausitz GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/0e1d8e54-bf5f-56dc-a244-f142a9555900"
+    }
+  }
+}

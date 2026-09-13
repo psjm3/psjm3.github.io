@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "SE3050000000123456789012",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "d276f58d-a91b-5f15-ae09-5b60ade84122",
+        "entryReference": "ER-INV-SPW-2026-001",
+        "endToEndId": "INV-SPW-2026-001",
+        "bookingDate": "2026-07-07",
+        "valueDate": "2026-07-07",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-19278.00"
+        },
+        "creditorName": "Fjaderstal Smide AB",
+        "creditorAccount": {
+          "iban": "SE7760000000987654321098"
+        },
+        "creditorAgent": "FSGBSE22XXX",
+        "debtorName": "NordFjader Fjadringssystem AB",
+        "debtorAccount": {
+          "iban": "SE3050000000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SPW-2026-001 - Fjaderstal Smide AB",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "de8ef6a2-1e46-5408-84a6-ca03fb28a829",
+        "entryReference": "ER-INV-SPW-2026-002",
+        "endToEndId": "INV-SPW-2026-002",
+        "bookingDate": "2026-07-14",
+        "valueDate": "2026-07-14",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-17671.50"
+        },
+        "creditorName": "Fjaderstal Smide AB",
+        "creditorAccount": {
+          "iban": "SE7760000000987654321098"
+        },
+        "creditorAgent": "FSGBSE22XXX",
+        "debtorName": "NordFjader Fjadringssystem AB",
+        "debtorAccount": {
+          "iban": "SE3050000000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SPW-2026-002 - Fjaderstal Smide AB",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "231d15aa-71f5-5f79-b799-415c34338f9f",
+        "entryReference": "ER-INV-SPW-2026-003",
+        "endToEndId": "INV-SPW-2026-003",
+        "bookingDate": "2026-07-21",
+        "valueDate": "2026-07-21",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-20884.50"
+        },
+        "creditorName": "Fjaderstal Smide AB",
+        "creditorAccount": {
+          "iban": "SE7760000000987654321098"
+        },
+        "creditorAgent": "FSGBSE22XXX",
+        "debtorName": "NordFjader Fjadringssystem AB",
+        "debtorAccount": {
+          "iban": "SE3050000000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SPW-2026-003 - Fjaderstal Smide AB",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "f575d0b6-3477-5315-9329-a7b23262f355",
+        "entryReference": "ER-INV-SPW-2026-004",
+        "endToEndId": "INV-SPW-2026-004",
+        "bookingDate": "2026-07-28",
+        "valueDate": "2026-07-28",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-16868.25"
+        },
+        "creditorName": "Fjaderstal Smide AB",
+        "creditorAccount": {
+          "iban": "SE7760000000987654321098"
+        },
+        "creditorAgent": "FSGBSE22XXX",
+        "debtorName": "NordFjader Fjadringssystem AB",
+        "debtorAccount": {
+          "iban": "SE3050000000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-SPW-2026-004 - Fjaderstal Smide AB",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/e4dc96fb-a548-5543-962a-7a39664e20d2"
+    }
+  }
+}

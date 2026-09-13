@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "DE87250400660009876543",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "23dd2f1d-444f-5bd0-8051-61880c8fe6c6",
+        "entryReference": "ER-INV-RBR-2026-001",
+        "endToEndId": "INV-RBR-2026-001",
+        "bookingDate": "2026-07-02",
+        "valueDate": "2026-07-02",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-39270.00"
+        },
+        "creditorName": "Kautschukwerk Niedersachsen GmbH",
+        "creditorAccount": {
+          "iban": "DE67250400990009988776"
+        },
+        "creditorAgent": "NGKBDEHAXXX",
+        "debtorName": "Continental Reifen & Gummi KG",
+        "debtorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-RBR-2026-001 - Kautschukwerk Niedersachsen GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "d1aeb8ef-01bb-5500-9f8f-a3dc313ed75d",
+        "entryReference": "ER-INV-RBR-2026-002",
+        "endToEndId": "INV-RBR-2026-002",
+        "bookingDate": "2026-07-09",
+        "valueDate": "2026-07-09",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-35343.00"
+        },
+        "creditorName": "Kautschukwerk Niedersachsen GmbH",
+        "creditorAccount": {
+          "iban": "DE67250400990009988776"
+        },
+        "creditorAgent": "NGKBDEHAXXX",
+        "debtorName": "Continental Reifen & Gummi KG",
+        "debtorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-RBR-2026-002 - Kautschukwerk Niedersachsen GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "87bf1581-9d63-5cfe-877e-6c8bd2d2f0e9",
+        "entryReference": "ER-INV-RBR-2026-003",
+        "endToEndId": "INV-RBR-2026-003",
+        "bookingDate": "2026-07-16",
+        "valueDate": "2026-07-16",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-43197.00"
+        },
+        "creditorName": "Kautschukwerk Niedersachsen GmbH",
+        "creditorAccount": {
+          "iban": "DE67250400990009988776"
+        },
+        "creditorAgent": "NGKBDEHAXXX",
+        "debtorName": "Continental Reifen & Gummi KG",
+        "debtorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-RBR-2026-003 - Kautschukwerk Niedersachsen GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "b98b0437-dfeb-5479-ad19-800dff0a5491",
+        "entryReference": "ER-INV-RBR-2026-004",
+        "endToEndId": "INV-RBR-2026-004",
+        "bookingDate": "2026-07-23",
+        "valueDate": "2026-07-23",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-37306.50"
+        },
+        "creditorName": "Kautschukwerk Niedersachsen GmbH",
+        "creditorAccount": {
+          "iban": "DE67250400990009988776"
+        },
+        "creditorAgent": "NGKBDEHAXXX",
+        "debtorName": "Continental Reifen & Gummi KG",
+        "debtorAccount": {
+          "iban": "DE87250400660009876543"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-RBR-2026-004 - Kautschukwerk Niedersachsen GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/3694b58e-0975-52ae-8832-f36cb346afa6"
+    }
+  }
+}

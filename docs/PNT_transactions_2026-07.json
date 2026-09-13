@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "PL92105000990000123456789012",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "cb1dc2b5-6b7d-5c30-b250-796517150fca",
+        "entryReference": "ER-INV-PIG-2026-001",
+        "endToEndId": "INV-PIG-2026-001",
+        "bookingDate": "2026-07-01",
+        "valueDate": "2026-07-01",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-18564.00"
+        },
+        "creditorName": "Pigmenty Slaskie Sp. z o.o.",
+        "creditorAccount": {
+          "iban": "PL89205000550000987654321098"
+        },
+        "creditorAgent": "PSKAPLPWXXX",
+        "debtorName": "ColorCoat Przemyslowe Lakiernie Sp. z o.o.",
+        "debtorAccount": {
+          "iban": "PL92105000990000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PIG-2026-001 - Pigmenty Slaskie Sp. z o.o.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "f4cf4af2-ccc4-5992-8124-c665024363fd",
+        "entryReference": "ER-INV-PIG-2026-002",
+        "endToEndId": "INV-PIG-2026-002",
+        "bookingDate": "2026-07-08",
+        "valueDate": "2026-07-08",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-17635.80"
+        },
+        "creditorName": "Pigmenty Slaskie Sp. z o.o.",
+        "creditorAccount": {
+          "iban": "PL89205000550000987654321098"
+        },
+        "creditorAgent": "PSKAPLPWXXX",
+        "debtorName": "ColorCoat Przemyslowe Lakiernie Sp. z o.o.",
+        "debtorAccount": {
+          "iban": "PL92105000990000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PIG-2026-002 - Pigmenty Slaskie Sp. z o.o.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "0cb81052-27d0-50ae-afec-c24636f913ca",
+        "entryReference": "ER-INV-PIG-2026-003",
+        "endToEndId": "INV-PIG-2026-003",
+        "bookingDate": "2026-07-15",
+        "valueDate": "2026-07-15",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-20884.50"
+        },
+        "creditorName": "Pigmenty Slaskie Sp. z o.o.",
+        "creditorAccount": {
+          "iban": "PL89205000550000987654321098"
+        },
+        "creditorAgent": "PSKAPLPWXXX",
+        "debtorName": "ColorCoat Przemyslowe Lakiernie Sp. z o.o.",
+        "debtorAccount": {
+          "iban": "PL92105000990000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PIG-2026-003 - Pigmenty Slaskie Sp. z o.o.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "bcada104-c78c-50ba-be06-e994deda43f3",
+        "entryReference": "ER-INV-PIG-2026-004",
+        "endToEndId": "INV-PIG-2026-004",
+        "bookingDate": "2026-07-22",
+        "valueDate": "2026-07-22",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-16707.60"
+        },
+        "creditorName": "Pigmenty Slaskie Sp. z o.o.",
+        "creditorAccount": {
+          "iban": "PL89205000550000987654321098"
+        },
+        "creditorAgent": "PSKAPLPWXXX",
+        "debtorName": "ColorCoat Przemyslowe Lakiernie Sp. z o.o.",
+        "debtorAccount": {
+          "iban": "PL92105000990000123456789012"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-PIG-2026-004 - Pigmenty Slaskie Sp. z o.o.",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/2544395e-65a1-598b-b1f3-7af48e06c829"
+    }
+  }
+}

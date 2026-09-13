@@ -1,0 +1,116 @@
+{
+  "account": {
+    "iban": "DE75760501010005647382",
+    "currency": "EUR"
+  },
+  "transactions": {
+    "booked": [
+      {
+        "transactionId": "6f289fb9-d1f9-59dd-8ce1-8e0745889456",
+        "entryReference": "ER-INV-CUW-2026-001",
+        "endToEndId": "INV-CUW-2026-001",
+        "bookingDate": "2026-07-05",
+        "valueDate": "2026-07-05",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-55692.00"
+        },
+        "creditorName": "Kupferwerk Mansfeld GmbH",
+        "creditorAccount": {
+          "iban": "DE37810500000004433221"
+        },
+        "creditorAgent": "KWMADEHAXXX",
+        "debtorName": "CableTech Draht & Kabel GmbH",
+        "debtorAccount": {
+          "iban": "DE75760501010005647382"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CUW-2026-001 - Kupferwerk Mansfeld GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "cf10206b-6eb7-5733-b089-d16075d8c2c4",
+        "entryReference": "ER-INV-CUW-2026-002",
+        "endToEndId": "INV-CUW-2026-002",
+        "bookingDate": "2026-07-12",
+        "valueDate": "2026-07-12",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-51051.00"
+        },
+        "creditorName": "Kupferwerk Mansfeld GmbH",
+        "creditorAccount": {
+          "iban": "DE37810500000004433221"
+        },
+        "creditorAgent": "KWMADEHAXXX",
+        "debtorName": "CableTech Draht & Kabel GmbH",
+        "debtorAccount": {
+          "iban": "DE75760501010005647382"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CUW-2026-002 - Kupferwerk Mansfeld GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "c17c7dd3-5589-54c8-a0bb-8cf399af5bcf",
+        "entryReference": "ER-INV-CUW-2026-003",
+        "endToEndId": "INV-CUW-2026-003",
+        "bookingDate": "2026-07-19",
+        "valueDate": "2026-07-19",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-64974.00"
+        },
+        "creditorName": "Kupferwerk Mansfeld GmbH",
+        "creditorAccount": {
+          "iban": "DE37810500000004433221"
+        },
+        "creditorAgent": "KWMADEHAXXX",
+        "debtorName": "CableTech Draht & Kabel GmbH",
+        "debtorAccount": {
+          "iban": "DE75760501010005647382"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CUW-2026-003 - Kupferwerk Mansfeld GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      },
+      {
+        "transactionId": "756d2270-5b77-5146-9e95-e9a7ccf0d8e1",
+        "entryReference": "ER-INV-CUW-2026-004",
+        "endToEndId": "INV-CUW-2026-004",
+        "bookingDate": "2026-07-26",
+        "valueDate": "2026-07-26",
+        "transactionAmount": {
+          "currency": "EUR",
+          "amount": "-46410.00"
+        },
+        "creditorName": "Kupferwerk Mansfeld GmbH",
+        "creditorAccount": {
+          "iban": "DE37810500000004433221"
+        },
+        "creditorAgent": "KWMADEHAXXX",
+        "debtorName": "CableTech Draht & Kabel GmbH",
+        "debtorAccount": {
+          "iban": "DE75760501010005647382"
+        },
+        "remittanceInformationUnstructured": "Payment of invoice INV-CUW-2026-004 - Kupferwerk Mansfeld GmbH",
+        "bankTransactionCode": "PMNT-ICDT-STDO",
+        "proprietaryBankTransactionCode": "SEPA_CREDIT_TRANSFER_OUT",
+        "purposeCode": "SUPP",
+        "status": "BOOK"
+      }
+    ],
+    "pending": []
+  },
+  "_links": {
+    "account": {
+      "href": "/v1/accounts/b8c01b5b-c759-58e8-9879-4778c6983af1"
+    }
+  }
+}
